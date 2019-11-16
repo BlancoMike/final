@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Distro || Home</title>
+    <link rel="stylesheet" href="./CSS/register.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="top-link">
+      <p class="logo">Distro</p>
+      <ul>
+        <li><a href="./Home.HTML">Home</a></li>
+        <li><a href="signin.html">Sign in</a></li>
+        <li><a href="register.html">Register Now</a></li>
+      </ul>
+    </div>
+    <br />
+    <p class="rep">Fill in your contact information and get contacted by our representative</p>
+    </p>
+    <form action="congrats.html" method="post">
+      <h1>Sign Up</h1>
+
+      <fieldset>
+        <legend><span class="number">1</span>Your basic info</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password" />
+
+        <label>Region:</label>
+        <input
+          type="radio"
+          id="under_13"
+          value="under_13"
+          name="user_age"
+        /><label for="under_13" class="light">Overseas</label><br />
+        <input
+          type="radio"
+          id="over_13"
+          value="over_13"
+          name="user_age"
+        /><label for="over_13" class="light">Within the Country</label>
+      </fieldset>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </body>
+</html>
